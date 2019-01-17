@@ -15,7 +15,6 @@ const customerRoutes = require('./routes/customer')
 app.set('port', process.env.PORT || 3000)
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
-
 // middlewares
 
 app.use(morgan('dev'))
